@@ -45,11 +45,11 @@ class SettingsController: UIViewController {
         print("Switching theme to \(Settings.theme_names[themeIndex])")
         switch themeIndex {
         case Settings.theme_dark_val:
-            background.backgroundColor = UIColor.darkGray
+            background.backgroundColor = UIColor(displayP3Red: 0.50378066957366774, green: 0.67718820381177824, blue: 1, alpha: 1)
         case Settings.theme_light_val:
-            background.backgroundColor = UIColor.white
+            background.backgroundColor = UIColor(displayP3Red: 0.6710506052712617, green: 0.93995184558734635, blue: 1, alpha: 1)
         default:
-            background.backgroundColor = UIColor.white
+            background.backgroundColor = UIColor(displayP3Red: 0.6710506052712617, green: 0.93995184558734635, blue: 1, alpha: 1)
         }
     }
     
