@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		762A87131F43C9C100CE12D9 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762A87121F43C9C100CE12D9 /* SettingsController.swift */; };
+		763F868A1F39A4E60093791A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763F86891F39A4E60093791A /* AppDelegate.swift */; };
+		763F868C1F39A4E60093791A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763F868B1F39A4E60093791A /* ViewController.swift */; };
+		763F868F1F39A4E60093791A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 763F868D1F39A4E60093791A /* Main.storyboard */; };
+		763F86911F39A4E60093791A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 763F86901F39A4E60093791A /* Assets.xcassets */; };
+		763F86941F39A4E60093791A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 763F86921F39A4E60093791A /* LaunchScreen.storyboard */; };
+		763F869F1F39A4E60093791A /* YATICTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763F869E1F39A4E60093791A /* YATICTests.swift */; };
+		763F86AA1F39A4E60093791A /* YATICUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763F86A91F39A4E60093791A /* YATICUITests.swift */; };
+		763F86BA1F43AB290093791A /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763F86B91F43AB290093791A /* Common.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		763F869B1F39A4E60093791A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 763F867E1F39A4E60093791A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 763F86851F39A4E60093791A;
+			remoteInfo = YATIC;
+		};
+		763F86A61F39A4E60093791A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 763F867E1F39A4E60093791A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 763F86851F39A4E60093791A;
+			remoteInfo = YATIC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		762A87121F43C9C100CE12D9 /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		763F86861F39A4E60093791A /* YATIC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YATIC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		763F86891F39A4E60093791A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		763F868B1F39A4E60093791A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		763F868E1F39A4E60093791A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		763F86901F39A4E60093791A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		763F86931F39A4E60093791A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		763F86951F39A4E60093791A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		763F869A1F39A4E60093791A /* YATICTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YATICTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		763F869E1F39A4E60093791A /* YATICTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YATICTests.swift; sourceTree = "<group>"; };
+		763F86A01F39A4E60093791A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		763F86A51F39A4E60093791A /* YATICUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YATICUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		763F86A91F39A4E60093791A /* YATICUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YATICUITests.swift; sourceTree = "<group>"; };
+		763F86AB1F39A4E60093791A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		763F86B91F43AB290093791A /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		763F86831F39A4E60093791A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		763F86971F39A4E60093791A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		763F86A21F39A4E60093791A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		763F867D1F39A4E60093791A = {
+			isa = PBXGroup;
+			children = (
+				763F86881F39A4E60093791A /* YATIC */,
+				763F869D1F39A4E60093791A /* YATICTests */,
+				763F86A81F39A4E60093791A /* YATICUITests */,
+				763F86871F39A4E60093791A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		763F86871F39A4E60093791A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				763F86861F39A4E60093791A /* YATIC.app */,
+				763F869A1F39A4E60093791A /* YATICTests.xctest */,
+				763F86A51F39A4E60093791A /* YATICUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		763F86881F39A4E60093791A /* YATIC */ = {
+			isa = PBXGroup;
+			children = (
+				763F86891F39A4E60093791A /* AppDelegate.swift */,
+				763F868B1F39A4E60093791A /* ViewController.swift */,
+				763F868D1F39A4E60093791A /* Main.storyboard */,
+				763F86901F39A4E60093791A /* Assets.xcassets */,
+				763F86921F39A4E60093791A /* LaunchScreen.storyboard */,
+				763F86951F39A4E60093791A /* Info.plist */,
+				763F86B91F43AB290093791A /* Common.swift */,
+				762A87121F43C9C100CE12D9 /* SettingsController.swift */,
+			);
+			path = YATIC;
+			sourceTree = "<group>";
+		};
+		763F869D1F39A4E60093791A /* YATICTests */ = {
+			isa = PBXGroup;
+			children = (
+				763F869E1F39A4E60093791A /* YATICTests.swift */,
+				763F86A01F39A4E60093791A /* Info.plist */,
+			);
+			path = YATICTests;
+			sourceTree = "<group>";
+		};
+		763F86A81F39A4E60093791A /* YATICUITests */ = {
+			isa = PBXGroup;
+			children = (
+				763F86A91F39A4E60093791A /* YATICUITests.swift */,
+				763F86AB1F39A4E60093791A /* Info.plist */,
+			);
+			path = YATICUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		763F86851F39A4E60093791A /* YATIC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 763F86AE1F39A4E60093791A /* Build configuration list for PBXNativeTarget "YATIC" */;
+			buildPhases = (
+				763F86821F39A4E60093791A /* Sources */,
+				763F86831F39A4E60093791A /* Frameworks */,
+				763F86841F39A4E60093791A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YATIC;
+			productName = YATIC;
+			productReference = 763F86861F39A4E60093791A /* YATIC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		763F86991F39A4E60093791A /* YATICTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 763F86B11F39A4E60093791A /* Build configuration list for PBXNativeTarget "YATICTests" */;
+			buildPhases = (
+				763F86961F39A4E60093791A /* Sources */,
+				763F86971F39A4E60093791A /* Frameworks */,
+				763F86981F39A4E60093791A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				763F869C1F39A4E60093791A /* PBXTargetDependency */,
+			);
+			name = YATICTests;
+			productName = YATICTests;
+			productReference = 763F869A1F39A4E60093791A /* YATICTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		763F86A41F39A4E60093791A /* YATICUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 763F86B41F39A4E60093791A /* Build configuration list for PBXNativeTarget "YATICUITests" */;
+			buildPhases = (
+				763F86A11F39A4E60093791A /* Sources */,
+				763F86A21F39A4E60093791A /* Frameworks */,
+				763F86A31F39A4E60093791A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				763F86A71F39A4E60093791A /* PBXTargetDependency */,
+			);
+			name = YATICUITests;
+			productName = YATICUITests;
+			productReference = 763F86A51F39A4E60093791A /* YATICUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		763F867E1F39A4E60093791A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Phuong Nguyen";
+				TargetAttributes = {
+					763F86851F39A4E60093791A = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					763F86991F39A4E60093791A = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 763F86851F39A4E60093791A;
+					};
+					763F86A41F39A4E60093791A = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 763F86851F39A4E60093791A;
+					};
+				};
+			};
+			buildConfigurationList = 763F86811F39A4E60093791A /* Build configuration list for PBXProject "YATIC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 763F867D1F39A4E60093791A;
+			productRefGroup = 763F86871F39A4E60093791A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				763F86851F39A4E60093791A /* YATIC */,
+				763F86991F39A4E60093791A /* YATICTests */,
+				763F86A41F39A4E60093791A /* YATICUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		763F86841F39A4E60093791A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				763F86941F39A4E60093791A /* LaunchScreen.storyboard in Resources */,
+				763F86911F39A4E60093791A /* Assets.xcassets in Resources */,
+				763F868F1F39A4E60093791A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		763F86981F39A4E60093791A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		763F86A31F39A4E60093791A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		763F86821F39A4E60093791A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				763F86BA1F43AB290093791A /* Common.swift in Sources */,
+				763F868C1F39A4E60093791A /* ViewController.swift in Sources */,
+				763F868A1F39A4E60093791A /* AppDelegate.swift in Sources */,
+				762A87131F43C9C100CE12D9 /* SettingsController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		763F86961F39A4E60093791A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				763F869F1F39A4E60093791A /* YATICTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		763F86A11F39A4E60093791A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				763F86AA1F39A4E60093791A /* YATICUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		763F869C1F39A4E60093791A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 763F86851F39A4E60093791A /* YATIC */;
+			targetProxy = 763F869B1F39A4E60093791A /* PBXContainerItemProxy */;
+		};
+		763F86A71F39A4E60093791A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 763F86851F39A4E60093791A /* YATIC */;
+			targetProxy = 763F86A61F39A4E60093791A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		763F868D1F39A4E60093791A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				763F868E1F39A4E60093791A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		763F86921F39A4E60093791A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				763F86931F39A4E60093791A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		763F86AC1F39A4E60093791A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		763F86AD1F39A4E60093791A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		763F86AF1F39A4E60093791A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YATIC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itsoninc.ios.YATIC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		763F86B01F39A4E60093791A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YATIC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itsoninc.ios.YATIC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		763F86B21F39A4E60093791A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YATICTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itsoninc.ios.YATICTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YATIC.app/YATIC";
+			};
+			name = Debug;
+		};
+		763F86B31F39A4E60093791A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YATICTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itsoninc.ios.YATICTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YATIC.app/YATIC";
+			};
+			name = Release;
+		};
+		763F86B51F39A4E60093791A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = YATICUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itsoninc.ios.YATICUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = YATIC;
+			};
+			name = Debug;
+		};
+		763F86B61F39A4E60093791A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = YATICUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itsoninc.ios.YATICUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = YATIC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		763F86811F39A4E60093791A /* Build configuration list for PBXProject "YATIC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				763F86AC1F39A4E60093791A /* Debug */,
+				763F86AD1F39A4E60093791A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		763F86AE1F39A4E60093791A /* Build configuration list for PBXNativeTarget "YATIC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				763F86AF1F39A4E60093791A /* Debug */,
+				763F86B01F39A4E60093791A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		763F86B11F39A4E60093791A /* Build configuration list for PBXNativeTarget "YATICTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				763F86B21F39A4E60093791A /* Debug */,
+				763F86B31F39A4E60093791A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		763F86B41F39A4E60093791A /* Build configuration list for PBXNativeTarget "YATICUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				763F86B51F39A4E60093791A /* Debug */,
+				763F86B61F39A4E60093791A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 763F867E1F39A4E60093791A /* Project object */;
+}
