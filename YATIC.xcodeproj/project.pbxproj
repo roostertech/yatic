@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27E0E8DEC6C444F78C0B4465 /* Pods_YATICUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB2F6D2F8C65A82E5FAEDC7 /* Pods_YATICUITests.framework */; };
+		4AC06009FE7873A31F74B91A /* Pods_YATIC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0CA4A5D1CF51FE2065FF233 /* Pods_YATIC.framework */; };
+		6A2A3061E71FCFD2FD580A23 /* Pods_YATICTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B7C2F48132ED5C4C918D25 /* Pods_YATICTests.framework */; };
 		762A87131F43C9C100CE12D9 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762A87121F43C9C100CE12D9 /* SettingsController.swift */; };
+		762A87151F4B553100CE12D9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 762A87141F4B553100CE12D9 /* GoogleService-Info.plist */; };
 		763F868A1F39A4E60093791A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763F86891F39A4E60093791A /* AppDelegate.swift */; };
 		763F868C1F39A4E60093791A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763F868B1F39A4E60093791A /* ViewController.swift */; };
 		763F868F1F39A4E60093791A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 763F868D1F39A4E60093791A /* Main.storyboard */; };
@@ -36,7 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2330141C3E9E5569C39FA9B6 /* Pods-YATIC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YATIC.release.xcconfig"; path = "Pods/Target Support Files/Pods-YATIC/Pods-YATIC.release.xcconfig"; sourceTree = "<group>"; };
+		28B7C2F48132ED5C4C918D25 /* Pods_YATICTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YATICTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D0F0F022D5314EE25B928AA /* Pods-YATICTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YATICTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YATICTests/Pods-YATICTests.release.xcconfig"; sourceTree = "<group>"; };
 		762A87121F43C9C100CE12D9 /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		762A87141F4B553100CE12D9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		763F86861F39A4E60093791A /* YATIC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YATIC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		763F86891F39A4E60093791A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		763F868B1F39A4E60093791A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +59,12 @@
 		763F86A91F39A4E60093791A /* YATICUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YATICUITests.swift; sourceTree = "<group>"; };
 		763F86AB1F39A4E60093791A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		763F86B91F43AB290093791A /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		7EA134E40AB0D5D2B6604954 /* Pods-YATICTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YATICTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YATICTests/Pods-YATICTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9862D5989E3890849293AE81 /* Pods-YATICUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YATICUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YATICUITests/Pods-YATICUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BFB2F6D2F8C65A82E5FAEDC7 /* Pods_YATICUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YATICUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0CA4A5D1CF51FE2065FF233 /* Pods_YATIC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YATIC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA4A5623CF382437906B296 /* Pods-YATIC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YATIC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YATIC/Pods-YATIC.debug.xcconfig"; sourceTree = "<group>"; };
+		FDBEEC6BFA594756C39FCE56 /* Pods-YATICUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YATICUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YATICUITests/Pods-YATICUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AC06009FE7873A31F74B91A /* Pods_YATIC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A2A3061E71FCFD2FD580A23 /* Pods_YATICTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27E0E8DEC6C444F78C0B4465 /* Pods_YATICUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +102,8 @@
 				763F869D1F39A4E60093791A /* YATICTests */,
 				763F86A81F39A4E60093791A /* YATICUITests */,
 				763F86871F39A4E60093791A /* Products */,
+				DB653FAB34E8D62265B79548 /* Pods */,
+				867D706CE56A97239A867546 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +120,7 @@
 		763F86881F39A4E60093791A /* YATIC */ = {
 			isa = PBXGroup;
 			children = (
+				762A87141F4B553100CE12D9 /* GoogleService-Info.plist */,
 				763F86891F39A4E60093791A /* AppDelegate.swift */,
 				763F868B1F39A4E60093791A /* ViewController.swift */,
 				763F868D1F39A4E60093791A /* Main.storyboard */,
@@ -131,6 +151,29 @@
 			path = YATICUITests;
 			sourceTree = "<group>";
 		};
+		867D706CE56A97239A867546 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0CA4A5D1CF51FE2065FF233 /* Pods_YATIC.framework */,
+				28B7C2F48132ED5C4C918D25 /* Pods_YATICTests.framework */,
+				BFB2F6D2F8C65A82E5FAEDC7 /* Pods_YATICUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB653FAB34E8D62265B79548 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAA4A5623CF382437906B296 /* Pods-YATIC.debug.xcconfig */,
+				2330141C3E9E5569C39FA9B6 /* Pods-YATIC.release.xcconfig */,
+				7EA134E40AB0D5D2B6604954 /* Pods-YATICTests.debug.xcconfig */,
+				5D0F0F022D5314EE25B928AA /* Pods-YATICTests.release.xcconfig */,
+				9862D5989E3890849293AE81 /* Pods-YATICUITests.debug.xcconfig */,
+				FDBEEC6BFA594756C39FCE56 /* Pods-YATICUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 763F86AE1F39A4E60093791A /* Build configuration list for PBXNativeTarget "YATIC" */;
 			buildPhases = (
+				38A166434A47DA05859FB0A9 /* [CP] Check Pods Manifest.lock */,
 				763F86821F39A4E60093791A /* Sources */,
 				763F86831F39A4E60093791A /* Frameworks */,
 				763F86841F39A4E60093791A /* Resources */,
+				8D4A905C64639D80F4F9BBBE /* [CP] Embed Pods Frameworks */,
+				D7141BF75B73E8CFA711004F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 763F86B11F39A4E60093791A /* Build configuration list for PBXNativeTarget "YATICTests" */;
 			buildPhases = (
+				E19B220FF8CF6BA088674A1C /* [CP] Check Pods Manifest.lock */,
 				763F86961F39A4E60093791A /* Sources */,
 				763F86971F39A4E60093791A /* Frameworks */,
 				763F86981F39A4E60093791A /* Resources */,
+				D4CA19EEF931CEB9BE621A37 /* [CP] Embed Pods Frameworks */,
+				E3359B10BF81705EDEE053CA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 763F86B41F39A4E60093791A /* Build configuration list for PBXNativeTarget "YATICUITests" */;
 			buildPhases = (
+				F440F485625CF386C9013746 /* [CP] Check Pods Manifest.lock */,
 				763F86A11F39A4E60093791A /* Sources */,
 				763F86A21F39A4E60093791A /* Frameworks */,
 				763F86A31F39A4E60093791A /* Resources */,
+				AD968C3A7B9C0A9985A1EB97 /* [CP] Embed Pods Frameworks */,
+				79B2D359AD7F443939FDFF77 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				763F86941F39A4E60093791A /* LaunchScreen.storyboard in Resources */,
+				762A87151F4B553100CE12D9 /* GoogleService-Info.plist in Resources */,
 				763F86911F39A4E60093791A /* Assets.xcassets in Resources */,
 				763F868F1F39A4E60093791A /* Main.storyboard in Resources */,
 			);
@@ -259,6 +312,158 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38A166434A47DA05859FB0A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YATIC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79B2D359AD7F443939FDFF77 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YATICUITests/Pods-YATICUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D4A905C64639D80F4F9BBBE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YATIC/Pods-YATIC-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YATIC/Pods-YATIC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD968C3A7B9C0A9985A1EB97 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YATICUITests/Pods-YATICUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4CA19EEF931CEB9BE621A37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YATICTests/Pods-YATICTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7141BF75B73E8CFA711004F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YATIC/Pods-YATIC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E19B220FF8CF6BA088674A1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YATICTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3359B10BF81705EDEE053CA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YATICTests/Pods-YATICTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F440F485625CF386C9013746 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YATICUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		763F86821F39A4E60093791A /* Sources */ = {
@@ -418,11 +623,12 @@
 		};
 		763F86AF1F39A4E60093791A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAA4A5623CF382437906B296 /* Pods-YATIC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YATIC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.itsoninc.ios.YATIC;
+				PRODUCT_BUNDLE_IDENTIFIER = net.roostertech.ios.YATIC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -430,11 +636,12 @@
 		};
 		763F86B01F39A4E60093791A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2330141C3E9E5569C39FA9B6 /* Pods-YATIC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YATIC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.itsoninc.ios.YATIC;
+				PRODUCT_BUNDLE_IDENTIFIER = net.roostertech.ios.YATIC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -442,6 +649,7 @@
 		};
 		763F86B21F39A4E60093791A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EA134E40AB0D5D2B6604954 /* Pods-YATICTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +664,7 @@
 		};
 		763F86B31F39A4E60093791A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D0F0F022D5314EE25B928AA /* Pods-YATICTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -470,6 +679,7 @@
 		};
 		763F86B51F39A4E60093791A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9862D5989E3890849293AE81 /* Pods-YATICUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = YATICUITests/Info.plist;
@@ -483,6 +693,7 @@
 		};
 		763F86B61F39A4E60093791A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDBEEC6BFA594756C39FCE56 /* Pods-YATICUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = YATICUITests/Info.plist;

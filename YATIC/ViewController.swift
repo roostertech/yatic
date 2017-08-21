@@ -99,8 +99,6 @@ class ViewController: UIViewController {
         showPanel()
         
         if (splitIndex == 0) {
-            //            tipLabel.text = String(format: "%@ %3.2f", currencySymbol, tip)
-            //            tipLabel.text = formatter.string(from: NSNumber(tip))
             tipLabel.text = formatter.currencySymbol + formatter.string(from: NSNumber(value: tip))!
             totalLabel.text = formatter.currencySymbol + formatter.string(from: NSNumber(value: total))!
         } else {

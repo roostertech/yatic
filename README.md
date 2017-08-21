@@ -23,6 +23,7 @@ The following **additional** features are implemented:
 * [x] Split bills
 * [x] Remember selected tip percentage
 * [x] Dark and light themes
+* [x] Firebase Analytics
 
 Here's a walkthrough of implemented user stories:
 
